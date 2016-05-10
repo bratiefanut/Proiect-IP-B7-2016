@@ -1,0 +1,936 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BUILDING>
+    <HEIGHT> 6.2 </HEIGHT>
+    <WIDTH>  9.8 </WIDTH>
+    <LENGHT> 9.6 </LENGHT>
+    <LEVEL>
+        <LevelNumber>0
+        <HEIGHT>3</HEIGHT>
+        <WIDTH>9.2</WIDTH>
+        <LENGHT>9.4</LENGHT>
+        <ROOMNUMBER>5
+            <ROOM>
+                <LABEL> 1 </LABEL>
+                <TYPE> NORMALROOM </TYPE>
+                <HEIGHT> 3 </HEIGHT>
+                <WIDTH> 4 </WIDTH>
+                <LENGTH> 3 </LENGTH>
+                <CAPACITY> 25 </CAPACITY>
+                <SPRINKLER> YES </SPRINKLER>
+                    <SprinklerNumber> 1 </SprinklerNumber>
+                <SMOKEDETECTOR>YES</SMOKEDETECTOR>
+                    <SmokeDetectorNumber> 1 </SmokeDetectorNumber> 
+                <EXTINGUISHERNUMBER>1
+                        <extinguisherID> 1
+                            <extinguisherX> 2 </extinguisherX>
+                            <extinguisherY> 17 </extinguisherY>
+                        </extinguisherID>
+                </EXTINGUISHERNUMBER>
+                <wallNumbers> 4 
+                <wallLabel> 1
+                    <width> 4 </width>
+                    <height> 3 </height>
+                </wallLabel>
+                <wallLabel> 2
+                    <width> 3 </width>
+                    <height> 3 </height>
+                </wallLabel>
+                <wallLabel> 4
+                    <width> 3 </width>
+                    <height> 3 </height>
+                </wallLabel>
+                <wallLabel> 3
+                    <width> 4 </width>
+                    <height> 3 </height>
+                </wallLabel>
+                </wallNumbers>
+
+                <CORNER>
+                    <IDcorner> 1 
+                        <cornerX> 10 </cornerX>
+                        <cornerY> 0 </cornerY>
+                        <wallLabels> 1,4 </wallLabels>
+                    </IDcorner>
+                    <IDcorner> 2
+                        <cornerX> 18 </cornerX>
+                        <cornerY> 0 </cornerY>
+                        <wallLabels> 1,2 </wallLabels>
+                    </IDcorner>
+                    <IDcorner> 3
+                        <cornerX> 18 </cornerX>
+                        <cornerY> 6 </cornerY>
+                        <wallLabels> 2,3 </wallLabels>
+                    </IDcorner>
+                    <IDCorner> 4
+                        <cornerX> 10 </cornerX>
+                        <cornerY> 6 </cornerY>
+                        <wallLabels> 3,4 </wallLabels>
+                    </IDCorner>
+                </CORNER>
+
+                <DOORNUMBER> 2 
+                    <DOOR>
+                        <ID> 1 </ID>
+                        <TYPE> INTERNAL </TYPE>
+                        <CAPACITY> 4 </CAPACITY>
+                        <isHermetic> NO </isHermetic>
+                        <width> 1 </width>
+                        <height> 2 </height>
+                        <doorX> 3 </doorX>
+                        <doorY> 16 </doorY>
+                        <wallLabel> 3 </wallLabel>
+                    </DOOR>
+                    <DOOR>
+                        <ID> 2 </ID>
+                        <TYPE>INTERNAL</TYPE>
+                        <CAPACITY> 2 </CAPACITY>
+                        <isHermetic> YES </isHermetic>
+                        <width> 1 </width>
+                        <height> 2 </height>
+                        <doorX> 10 </doorX>
+                        <doorY> 2.5 </doorY>
+                        <wallLabel> 4 </wallLabel>
+                    </DOOR>
+                </DOORNUMBER>
+                <WindowsNumber > 1 
+                    <Window> 1 
+                        <width> 1 </width>
+                        <height> 1.2 </height>
+                        <windowX> 0 </windowX>
+                        <windowY> 15 </windowY>
+                        <wallLabel> 1 </wallLabel>
+                    </Window>
+                </WindowsNumber>
+            </ROOM>
+
+             <ROOM>
+                <LABEL>2</LABEL>
+                <TYPE>NORMALROOM</TYPE>
+                <HEIGHT>3</HEIGHT>
+                <WIDTH>4</WIDTH>
+                <LENGTH>3</LENGTH>
+                <CAPACITY>25</CAPACITY>
+                <SPRINKLER>YES </SPRINKLER>
+                    <SprinklerNumber> 2 </SprinklerNumber>
+                <SMOKEDETECTOR>YES</SMOKEDETECTOR>
+                    <SmokeDetectorNumber> 2 </SmokeDetectorNumber> 
+                <EXTINGUISHERNUMBER>1
+                        <extinguisherID> 2
+                            <extinguisherX> 12 </extinguisherX>
+                            <extinguisherY> 12 </extinguisherY>
+                        </extinguisherID>
+                </EXTINGUISHERNUMBER>
+                <wallNumbers> 4 
+                <wallLabel> 1
+                    <width> 4 </width>
+                    <height> 3 </height>
+                </wallLabel>
+                <wallLabel> 2
+                    <width> 3 </width>
+                    <height> 3 </height>
+                </wallLabel>
+                <wallLabel> 3
+                    <width> 4 </width>
+                    <height> 3 </height>
+                </wallLabel>
+                <wallLabel> 4
+                    <width> 3 </width>
+                    <height> 3 </height>
+                </wallLabel>
+                </wallNumbers>
+
+                <CORNER>
+                    <IDcorner> 1
+                        <cornerX> 10 </cornerX>
+                        <cornerY> 6 </cornerY>
+                        <wallLabels> 1,4 </wallLabels>
+                    </IDcorner>
+                    <IDCorner> 2
+                        <cornerX> 18 </cornerX>
+                        <cornerY> 6 </cornerY>
+                        <wallLabels> 1,2 </wallLabels>
+                    </IDCorner>
+                    <IDcorner> 3 
+                        <cornerX> 18 </cornerX>
+                        <cornerY> 12 </cornerY>
+                        <wallLabels> 2,3 </wallLabels>
+                    </IDcorner>
+                    <IDcorner> 4
+                        <cornerX> 10 </cornerX>
+                        <cornerY> 12 </cornerY>
+                        <wallLabels> 3,4 </wallLabels>
+                    </IDcorner>
+                </CORNER>
+
+                <DOORNUMBER> 2 
+                    <DOOR>
+                        <ID> 3 </ID>
+                        <TYPE> INTERNAL </TYPE>
+                        <CAPACITY> 2 </CAPACITY>
+                        <isHermetic> YES </isHermetic>
+                        <width> 1 </width>
+                        <height> 2 </height>
+                        <doorX> 3 </doorX>
+                        <doorY> 16 </doorY>
+                        <wallLabel> 1 </wallLabel>
+                    </DOOR>
+                    <DOOR>
+                        <ID> 4 </ID>
+                        <TYPE>INTERNAL</TYPE>
+                        <CAPACITY> 2 </CAPACITY>
+                        <isHermetic> YES </isHermetic>
+                        <width> 1 </width>
+                        <height> 2 </height>
+                        <doorX> 12 </doorX>
+                        <doorY> 12 </doorY>
+                        <wallLabel> 3 </wallLabel>
+                    </DOOR>
+                </DOORNUMBER>
+                <WindowsNumber > 1 
+                    <Window> 2 
+                        <width> 1.5 </width>
+                        <height> 1.2 </height>
+                        <windowX> 9 </windowX>
+                        <windowY> 18  </windowY>
+                        <wallLabel> 2 </wallLabel>
+                    </Window>
+                </WindowsNumber>
+            </ROOM>
+
+             <ROOM>
+                <LABEL> 3 </LABEL>
+                <TYPE> NORMALROOM </TYPE>
+                <HEIGHT> 3 </HEIGHT>
+                <WIDTH> 5 </WIDTH>
+                <LENGTH> 6 </LENGTH>
+                <CAPACITY> 60 </CAPACITY>
+                <SPRINKLER> YES </SPRINKLER>
+                    <SprinklerNumber> 3 </SprinklerNumber>
+                <SMOKEDETECTOR> YES </SMOKEDETECTOR>
+                    <SmokeDetectorNumber> 3 </SmokeDetectorNumber> 
+                <EXTINGUISHERNUMBER>2
+                        <extinguisherID> 3 
+                            <extinguisherX> 8 </extinguisherX>
+                            <extinguisherY> 16 </extinguisherY>
+                        </extinguisherID>
+                        <extinguisherID> 4 
+                            <extinguisherX> 10 </extinguisherX>
+                            <extinguisherY> 8 </extinguisherY>
+                        </extinguisherID>
+                </EXTINGUISHERNUMBER>
+                <wallNumbers> 4 
+                <wallLabel> 1
+                    <width> 5 </width>
+                    <height> 3 </height>
+                </wallLabel>
+                <wallLabel> 2
+                    <width> 6 </width>
+                    <height> 3 </height>
+                </wallLabel>
+                <wallLabel> 3
+                    <width> 5 </width>
+                    <height> 3 </height>
+                </wallLabel>
+                <wallLabel> 4
+                    <width> 6 </width>
+                    <height> 3 </height>
+                </wallLabel>
+                </wallNumbers>
+
+                <CORNER>
+                    <IDcorner> 1
+                        <cornerX> 0 </cornerX>
+                        <cornerY> 0 </cornerY>
+                        <wallLabels> 1,4 </wallLabels>
+                    </IDcorner>
+                    <IDCorner> 2
+                        <cornerX> 10 </cornerX>
+                        <cornerY> 0 </cornerY>
+                        <wallLabels> 1,2 </wallLabels>
+                    </IDCorner>
+                    <IDcorner> 3 
+                        <cornerX> 10 </cornerX>
+                        <cornerY> 12 </cornerY>
+                        <wallLabels> 2,3 </wallLabels>
+                    </IDcorner>
+                    <IDcorner> 4
+                        <cornerX> 0 </cornerX>
+                        <cornerY> 12 </cornerY>
+                        <wallLabels> 3,4 </wallLabels>
+                    </IDcorner>
+                </CORNER>
+
+                <DOORNUMBER> 2 
+                    <DOOR>
+                        <ID> 5 </ID>
+                        <TYPE> INTERNAL </TYPE>
+                        <CAPACITY> 2 </CAPACITY>
+                        <isHermetic> NO </isHermetic>
+                        <width> 1 </width>
+                        <height> 2 </height>
+                        <doorX> 10 </doorX>
+                        <doorY> 2.5 </doorY>
+                        <wallLabel> 2 </wallLabel>
+                    </DOOR>
+                    <DOOR>
+                        <ID> 6 </ID>
+                        <TYPE> INTERNAL </TYPE>
+                        <CAPACITY> 2 </CAPACITY>
+                        <isHermetic> YES </isHermetic>
+                        <width> 1 </width>
+                        <height> 2 </height>
+                        <doorX> 12 </doorX>
+                        <doorY> 8 </doorY>
+                        <wallLabel> 3 </wallLabel>
+                    </DOOR>
+                </DOORNUMBER>
+                <WindowsNumber > 2 
+                    <Window> 3 
+                        <width> 2 </width>
+                        <height> 1.2 </height>
+                        <windowX> 0 </windowX>
+                        <windowY> 5 </windowY>
+                        <wallLabel> 1 </wallLabel>
+                    </Window>
+                    <Window> 4 
+                        <width> 2 </width>
+                        <height> 1.2 </height>
+                        <windowX> 6 </windowX>
+                        <windowY> 0 </windowY>
+                        <wallLabel> 4 </wallLabel>
+                    </Window>
+                </WindowsNumber>
+            </ROOM>
+
+               <ROOM>
+                <LABEL> 4 </LABEL>
+                <TYPE> HALLWAY </TYPE>
+                <HEIGHT> 3 </HEIGHT>
+                <WIDTH> 6 </WIDTH>
+                <LENGTH> 3 </LENGTH>
+                <CAPACITY> 40 </CAPACITY>
+                <SPRINKLER> YES </SPRINKLER>
+                    <SprinklerNumber> 4 </SprinklerNumber>
+                <SMOKEDETECTOR> YES </SMOKEDETECTOR>
+                    <SmokeDetectorNumber> 4 </SmokeDetectorNumber> 
+                <EXTINGUISHERNUMBER> 1
+                        <extinguisherID> 5 
+                            <extinguisherX> 17 </extinguisherX>
+                            <extinguisherY> 7 </extinguisherY>
+                        </extinguisherID>
+                </EXTINGUISHERNUMBER>
+                <wallNumbers> 4 
+                <wallLabel> 1
+                    <width> 6 </width>
+                    <height> 3 </height>
+                </wallLabel>
+                <wallLabel> 2
+                    <width> 3 </width>
+                    <height> 3 </height>
+                </wallLabel>
+                <wallLabel> 3
+                    <width> 6 </width>
+                    <height> 3 </height>
+                </wallLabel>
+                <wallLabel> 4
+                    <width> 3 </width>
+                    <height> 3 </height>
+                </wallLabel>
+                </wallNumbers>
+
+                <CORNER>
+                    <IDcorner> 1
+                        <cornerX> 6 </cornerX>
+                        <cornerY> 12 </cornerY>
+                        <wallLabels> 1,4 </wallLabels>
+                    </IDcorner>
+                    <IDCorner> 2
+                        <cornerX> 18 </cornerX>
+                        <cornerY> 12 </cornerY>
+                        <wallLabels> 1,2 </wallLabels>
+                    </IDCorner>
+                    <IDcorner> 3 
+                        <cornerX> 18 </cornerX>
+                        <cornerY> 18 </cornerY>
+                        <wallLabels> 2,3 </wallLabels>
+                    </IDcorner>
+                    <IDcorner> 4
+                        <cornerX> 6 </cornerX>
+                        <cornerY> 18 </cornerY>
+                        <wallLabels> 3,4 </wallLabels>
+                    </IDcorner>
+                </CORNER>
+
+                <DOORNUMBER> 3 
+                    <DOOR>
+                        <ID> 7 </ID>
+                        <TYPE> INTERNAL </TYPE>
+                        <CAPACITY> 2 </CAPACITY>
+                        <isHermetic> YES </isHermetic>
+                        <width> 1 </width>
+                        <height> 2 </height>
+                        <doorX> 12 </doorX>
+                        <doorY> 12 </doorY>
+                        <wallLabel> 1 </wallLabel>
+                    </DOOR>
+                    <DOOR>
+                        <ID> 8 </ID>
+                        <TYPE> INTERNAL </TYPE>
+                        <CAPACITY> 3 </CAPACITY>
+                        <isHermetic> NO </isHermetic>
+                        <width> 1 </width>
+                        <height> 2 </height>
+                        <doorX> 18 </doorX>
+                        <doorY> 9 </doorY>
+                        <wallLabel> 3 </wallLabel>
+                    </DOOR>
+                    <DOOR>
+                        <ID> 9 </ID>
+                        <TYPE> INTERNAL </TYPE>
+                        <CAPACITY> 2 </CAPACITY>
+                        <isHermetic> YES </isHermetic>
+                        <width> 1 </width>
+                        <height> 2 </height>
+                        <doorX> 12 </doorX>
+                        <doorY> 8 </doorY>
+                        <wallLabel> 1 </wallLabel>
+                    </DOOR>
+                </DOORNUMBER>
+                <WindowsNumber > 1 
+                    <Window> 5 
+                        <width> 2.5 </width>
+                        <height> 1.2 </height>
+                        <windowX> 12 </windowX>
+                        <windowY> 14 </windowY>
+                        <wallLabel> 3 </wallLabel>
+                    </Window>
+                </WindowsNumber>
+            </ROOM>
+
+            <ROOM>
+                <LABEL> 5 </LABEL>
+                <TYPE> STAIRSROOM </TYPE>
+                <HEIGHT> 3 </HEIGHT>
+                <WIDTH> 3 </WIDTH>
+                <LENGTH> 3 </LENGTH>
+                <CAPACITY> 15 </CAPACITY>
+                <SPRINKLER> NO </SPRINKLER>
+                    <SprinklerNumber> 5 </SprinklerNumber>
+                <SMOKEDETECTOR> NO </SMOKEDETECTOR>
+                <wallNumbers> 4 
+                <wallLabel> 1
+                    <width> 3 </width>
+                    <height> 3 </height>
+                </wallLabel>
+                <wallLabel> 2
+                    <width> 3 </width>
+                    <height> 3 </height>
+                </wallLabel>
+                <wallLabel> 3
+                    <width> 3 </width>
+                    <height> 3 </height>
+                </wallLabel>
+                <wallLabel> 4
+                    <width> 3 </width>
+                    <height> 3 </height>
+                </wallLabel>
+                </wallNumbers>
+
+                <CORNER>
+                    <IDcorner> 1
+                        <cornerX> 0 </cornerX>
+                        <cornerY> 12 </cornerY>
+                        <wallLabels> 1,4 </wallLabels>
+                    </IDcorner>
+                    <IDCorner> 2
+                        <cornerX> 6 </cornerX>
+                        <cornerY> 12 </cornerY>
+                        <wallLabels> 1,2 </wallLabels>
+                    </IDCorner>
+                    <IDcorner> 3 
+                        <cornerX> 6 </cornerX>
+                        <cornerY> 18 </cornerY>
+                        <wallLabels> 2,3 </wallLabels>
+                    </IDcorner>
+                    <IDcorner> 4
+                        <cornerX> 0 </cornerX>
+                        <cornerY> 18 </cornerY>
+                        <wallLabels> 3,4 </wallLabels>
+                    </IDcorner>
+                </CORNER>
+
+                <DOORNUMBER> 0 </DOORNUMBER>
+                <WindowsNumber > 1 
+                    <Window> 6 
+                        <width> 2.5 </width>
+                        <height> 1.2 </height>
+                        <windowX> 12 </windowX>
+                        <windowY> 3.5 </windowY>
+                        <wallLabel> 3 </wallLabel>
+                    </Window>
+                </WindowsNumber>
+            </ROOM>
+        </ROOMNUMBER>
+     </LevelNumber>
+
+     <LevelNumber>1
+        <HEIGHT>3</HEIGHT>
+        <WIDTH>9.2</WIDTH>
+        <LENGHT>9.4</LENGHT>
+        <ROOMNUMBER>5
+            <ROOM>
+                <LABEL> 1 </LABEL>
+                <TYPE> NORMALROOM </TYPE>
+                <HEIGHT> 3 </HEIGHT>
+                <WIDTH> 4 </WIDTH>
+                <LENGTH> 3 </LENGTH>
+                <CAPACITY> 25 </CAPACITY>
+                <SPRINKLER> YES </SPRINKLER>
+                    <SprinklerNumber> 6 </SprinklerNumber>
+                <SMOKEDETECTOR>YES</SMOKEDETECTOR>
+                    <SmokeDetectorNumber> 5 </SmokeDetectorNumber> 
+                <EXTINGUISHERNUMBER>1
+                        <extinguisherID> 6
+                            <extinguisherX> 2 </extinguisherX>
+                            <extinguisherY> 17 </extinguisherY>
+                        </extinguisherID>
+                </EXTINGUISHERNUMBER>
+                <wallNumbers> 4 
+                <wallLabel> 1
+                    <width> 4 </width>
+                    <height> 3 </height>
+                </wallLabel>
+                <wallLabel> 2
+                    <width> 3 </width>
+                    <height> 3 </height>
+                </wallLabel>
+                <wallLabel> 4
+                    <width> 3 </width>
+                    <height> 3 </height>
+                </wallLabel>
+                <wallLabel> 3
+                    <width> 4 </width>
+                    <height> 3 </height>
+                </wallLabel>
+                </wallNumbers>
+                <CORNER>
+                    <IDcorner> 1 
+                        <cornerX> 10 </cornerX>
+                        <cornerY> 0 </cornerY>
+                        <wallLabels> 1,4 </wallLabels>
+                    </IDcorner>
+                    <IDcorner> 2
+                        <cornerX> 18 </cornerX>
+                        <cornerY> 0 </cornerY>
+                        <wallLabels> 1,2 </wallLabels>
+                    </IDcorner>
+                    <IDcorner> 3
+                        <cornerX> 18 </cornerX>
+                        <cornerY> 6 </cornerY>
+                        <wallLabels> 2,3 </wallLabels>
+                    </IDcorner>
+                    <IDCorner> 4
+                        <cornerX> 10 </cornerX>
+                        <cornerY> 6 </cornerY>
+                        <wallLabels> 3,4 </wallLabels>
+                    </IDCorner>
+                </CORNER>
+                <DOORNUMBER> 2 
+                    <DOOR>
+                        <ID> 10 </ID>
+                        <TYPE> INTERNAL </TYPE>
+                        <CAPACITY> 4 </CAPACITY>
+                        <isHermetic> NO </isHermetic>
+                        <width> 1 </width>
+                        <height> 2 </height>
+                        <doorX> 3 </doorX>
+                        <doorY> 16 </doorY>
+                        <wallLabel> 3 </wallLabel>
+                    </DOOR>
+                    <DOOR>
+                        <ID> 11 </ID>
+                        <TYPE>INTERNAL</TYPE>
+                        <CAPACITY> 2 </CAPACITY>
+                        <isHermetic> YES </isHermetic>
+                        <width> 1 </width>
+                        <height> 2 </height>
+                        <doorX> 10 </doorX>
+                        <doorY> 2.5 </doorY>
+                        <wallLabel> 4 </wallLabel>
+                    </DOOR>
+                </DOORNUMBER>
+                <WindowsNumber > 1 
+                    <Window> 7 
+                        <width> 1 </width>
+                        <height> 1.2 </height>
+                        <windowX> 0 </windowX>
+                        <windowY> 15 </windowY>
+                        <wallLabel> 1 </wallLabel>
+                    </Window>
+                </WindowsNumber>
+            </ROOM>
+
+             <ROOM>
+                <LABEL> 2 </LABEL>
+                <TYPE>NORMALROOM</TYPE>
+                <HEIGHT>3</HEIGHT>
+                <WIDTH>4</WIDTH>
+                <LENGTH>3</LENGTH>
+                <CAPACITY>25</CAPACITY>
+                <SPRINKLER>YES </SPRINKLER>
+                    <SprinklerNumber> 7 </SprinklerNumber>
+                <SMOKEDETECTOR>YES</SMOKEDETECTOR>
+                    <SmokeDetectorNumber> 6 </SmokeDetectorNumber> 
+                <EXTINGUISHERNUMBER>1
+                        <extinguisherID> 7
+                            <extinguisherX> 12 </extinguisherX>
+                            <extinguisherY> 12 </extinguisherY>
+                        </extinguisherID>
+                </EXTINGUISHERNUMBER>
+                <wallNumbers> 4 
+                <wallLabel> 1
+                    <width> 4 </width>
+                    <height> 3 </height>
+                </wallLabel>
+                <wallLabel> 2
+                    <width> 3 </width>
+                    <height> 3 </height>
+                </wallLabel>
+                <wallLabel> 3
+                    <width> 4 </width>
+                    <height> 3 </height>
+                </wallLabel>
+                <wallLabel> 4
+                    <width> 3 </width>
+                    <height> 3 </height>
+                </wallLabel>
+                </wallNumbers>
+
+                <CORNER>
+                    <IDcorner> 1
+                        <cornerX> 10 </cornerX>
+                        <cornerY> 6 </cornerY>
+                        <wallLabels> 1,4 </wallLabels>
+                    </IDcorner>
+                    <IDCorner> 2
+                        <cornerX> 18 </cornerX>
+                        <cornerY> 6 </cornerY>
+                        <wallLabels> 1,2 </wallLabels>
+                    </IDCorner>
+                    <IDcorner> 3 
+                        <cornerX> 18 </cornerX>
+                        <cornerY> 12 </cornerY>
+                        <wallLabels> 2,3 </wallLabels>
+                    </IDcorner>
+                    <IDcorner> 4
+                        <cornerX> 10 </cornerX>
+                        <cornerY> 12 </cornerY>
+                        <wallLabels> 3,4 </wallLabels>
+                    </IDcorner>
+                </CORNER>
+                <DOORNUMBER> 2 
+                    <DOOR>
+                        <ID> 12 </ID>
+                        <TYPE> INTERNAL </TYPE>
+                        <CAPACITY> 2 </CAPACITY>
+                        <isHermetic> YES </isHermetic>
+                        <width> 1 </width>
+                        <height> 2 </height>
+                        <doorX> 3 </doorX>
+                        <doorY> 16 </doorY>
+                        <wallLabel> 1 </wallLabel>
+                    </DOOR>
+                    <DOOR>
+                        <ID> 13 </ID>
+                        <TYPE>INTERNAL</TYPE>
+                        <CAPACITY> 2 </CAPACITY>
+                        <isHermetic> YES </isHermetic>
+                        <width> 1 </width>
+                        <height> 2 </height>
+                        <doorX> 12 </doorX>
+                        <doorY> 12 </doorY>
+                        <wallLabel> 3 </wallLabel>
+                    </DOOR>
+                </DOORNUMBER>
+                <WindowsNumber > 1 
+                    <Window> 8 
+                        <width> 1.5 </width>
+                        <height> 1.2 </height>
+                        <windowX> 9 </windowX>
+                        <windowY> 18 </windowY>
+                        <wallLabel> 2 </wallLabel>
+                    </Window>
+                </WindowsNumber>
+            </ROOM>
+
+             <ROOM>
+                <LABEL> 3 </LABEL>
+                <TYPE> NORMALROOM </TYPE>
+                <HEIGHT> 3 </HEIGHT>
+                <WIDTH> 5 </WIDTH>
+                <LENGTH> 6 </LENGTH>
+                <CAPACITY> 60 </CAPACITY>
+                <SPRINKLER> YES </SPRINKLER>
+                    <SprinklerNumber> 8 </SprinklerNumber>
+                <SMOKEDETECTOR> YES </SMOKEDETECTOR>
+                    <SmokeDetectorNumber> 7 </SmokeDetectorNumber> 
+                <EXTINGUISHERNUMBER>2
+                        <extinguisherID> 8 
+                            <extinguisherX> 8 </extinguisherX>
+                            <extinguisherY> 16 </extinguisherY>
+                        </extinguisherID>
+                        <extinguisherID> 9 
+                            <extinguisherX> 10 </extinguisherX>
+                            <extinguisherY> 8 </extinguisherY>
+                        </extinguisherID>
+                </EXTINGUISHERNUMBER>
+                <wallNumbers> 4 
+                <wallLabel> 1
+                    <width> 5 </width>
+                    <height> 3 </height>
+                </wallLabel>
+                <wallLabel> 2
+                    <width> 6 </width>
+                    <height> 3 </height>
+                </wallLabel>
+                <wallLabel> 3
+                    <width> 5 </width>
+                    <height> 3 </height>
+                </wallLabel>
+                <wallLabel> 4
+                    <width> 6 </width>
+                    <height> 3 </height>
+                </wallLabel>
+                </wallNumbers>
+                <CORNER>
+                    <IDcorner> 1
+                        <cornerX> 0 </cornerX>
+                        <cornerY> 0 </cornerY>
+                        <wallLabels> 1,4 </wallLabels>
+                    </IDcorner>
+                    <IDCorner> 2
+                        <cornerX> 10 </cornerX>
+                        <cornerY> 0 </cornerY>
+                        <wallLabels> 1,2 </wallLabels>
+                    </IDCorner>
+                    <IDcorner> 3 
+                        <cornerX> 10 </cornerX>
+                        <cornerY> 12 </cornerY>
+                        <wallLabels> 2,3 </wallLabels>
+                    </IDcorner>
+                    <IDcorner> 4
+                        <cornerX> 0 </cornerX>
+                        <cornerY> 12 </cornerY>
+                        <wallLabels> 3,4 </wallLabels>
+                    </IDcorner>
+                </CORNER>
+                <DOORNUMBER> 2 
+                    <DOOR>
+                        <ID> 14 </ID>
+                        <TYPE> INTERNAL </TYPE>
+                        <CAPACITY> 2 </CAPACITY>
+                        <isHermetic> NO </isHermetic>
+                        <width> 1 </width>
+                        <height> 2 </height>
+                        <doorX> 10 </doorX>
+                        <doorY> 2.5 </doorY>
+                        <wallLabel> 2 </wallLabel>
+                    </DOOR>
+                    <DOOR>
+                        <ID> 15 </ID>
+                        <TYPE> INTERNAL </TYPE>
+                        <CAPACITY> 2 </CAPACITY>
+                        <isHermetic> YES </isHermetic>
+                        <width> 1 </width>
+                        <height> 2 </height>
+                        <doorX> 12 </doorX>
+                        <doorY> 8 </doorY>
+                        <wallLabel> 3 </wallLabel>
+                    </DOOR>
+                </DOORNUMBER>
+                <WindowsNumber > 2 
+                    <Window> 9 
+                        <width> 2 </width>
+                        <height> 1.2 </height>
+                        <windowX> 0 </windowX>
+                        <windowY> 5 </windowY>
+                        <wallLabel> 1 </wallLabel>
+                    </Window>
+                    <Window> 10 
+                        <width> 2 </width>
+                        <height> 1.2 </height>
+                        <windowX> 6 </windowX>
+                        <windowY> 0 </windowY>
+                        <wallLabel> 4 </wallLabel>
+                    </Window>
+                </WindowsNumber>
+            </ROOM>
+
+               <ROOM>
+                <LABEL> 4 </LABEL>
+                <TYPE> HALLWAY </TYPE>
+                <HEIGHT> 3 </HEIGHT>
+                <WIDTH> 6 </WIDTH>
+                <LENGTH> 3 </LENGTH>
+                <CAPACITY> 40 </CAPACITY>
+                <SPRINKLER> YES </SPRINKLER>
+                    <SprinklerNumber> 8 </SprinklerNumber>
+                <SMOKEDETECTOR> YES </SMOKEDETECTOR>
+                    <SmokeDetectorNumber> 7 </SmokeDetectorNumber> 
+                <EXTINGUISHERNUMBER> 1
+                        <extinguisherID> 10 
+                            <extinguisherX> 17 </extinguisherX>
+                            <extinguisherY> 7 </extinguisherY>
+                        </extinguisherID>
+                </EXTINGUISHERNUMBER>
+                <wallNumbers> 4 
+                <wallLabel> 1
+                    <width> 6 </width>
+                    <height> 3 </height>
+                </wallLabel>
+                <wallLabel> 2
+                    <width> 3 </width>
+                    <height> 3 </height>
+                </wallLabel>
+                <wallLabel> 3
+                    <width> 6 </width>
+                    <height> 3 </height>
+                </wallLabel>
+                <wallLabel> 4
+                    <width> 3 </width>
+                    <height> 3 </height>
+                </wallLabel>
+                </wallNumbers>
+                <CORNER>
+                    <IDcorner> 1
+                        <cornerX> 6 </cornerX>
+                        <cornerY> 12 </cornerY>
+                        <wallLabels> 1,4 </wallLabels>
+                    </IDcorner>
+                    <IDCorner> 2
+                        <cornerX> 18 </cornerX>
+                        <cornerY> 12 </cornerY>
+                        <wallLabels> 1,2 </wallLabels>
+                    </IDCorner>
+                    <IDcorner> 3 
+                        <cornerX> 18 </cornerX>
+                        <cornerY> 18 </cornerY>
+                        <wallLabels> 2,3 </wallLabels>
+                    </IDcorner>
+                    <IDcorner> 4
+                        <cornerX> 6 </cornerX>
+                        <cornerY> 18 </cornerY>
+                        <wallLabels> 3,4 </wallLabels>
+                    </IDcorner>
+                </CORNER>
+                <DOORNUMBER> 3 
+                    <DOOR>
+                        <ID> 16 </ID>
+                        <TYPE> INTERNAL </TYPE>
+                        <CAPACITY> 2 </CAPACITY>
+                        <isHermetic> YES </isHermetic>
+                        <width> 1 </width>
+                        <height> 2 </height>
+                        <doorX> 12 </doorX>
+                        <doorY> 12 </doorY>
+                        <wallLabel> 1 </wallLabel>
+                    </DOOR>
+                    <DOOR>
+                        <ID> 17 </ID>
+                        <TYPE> EXTERNAL </TYPE>
+                        <CAPACITY> 4 </CAPACITY>
+                        <isHermetic> NO </isHermetic>
+                        <width> 1.5 </width>
+                        <height> 2 </height>
+                        <doorX> 18 </doorX>
+                        <doorY> 9 </doorY>
+                        <wallLabel> 3 </wallLabel>
+                    </DOOR>
+                    <DOOR>
+                        <ID> 18 </ID>
+                        <TYPE> INTERNAL </TYPE>
+                        <CAPACITY> 2 </CAPACITY>
+                        <isHermetic> YES </isHermetic>
+                        <width> 1 </width>
+                        <height> 2 </height>
+                        <doorX> 12 </doorX>
+                        <doorY> 8 </doorY>
+                        <wallLabel> 1 </wallLabel>
+                    </DOOR>
+                </DOORNUMBER>
+                <WindowsNumber > 1 
+                    <Window> 11 
+                        <width> 2.5 </width>
+                        <height> 1.2 </height>
+                        <windowX> 12 </windowX>
+                        <windowY> 14 </windowY>
+                        <wallLabel> 3 </wallLabel>
+                    </Window>
+                </WindowsNumber>
+            </ROOM>
+
+            <ROOM>
+                <LABEL> 5 </LABEL>
+                <TYPE> STAIRSROOM </TYPE>
+                <HEIGHT> 3 </HEIGHT>
+                <WIDTH> 3 </WIDTH>
+                <LENGTH> 3 </LENGTH>
+                <CAPACITY> 15 </CAPACITY>
+                <SPRINKLER> NO </SPRINKLER>
+                    <SprinklerNumber> 10 </SprinklerNumber>
+                <SMOKEDETECTOR> NO </SMOKEDETECTOR>
+                <wallNumbers> 4 
+                <wallLabel> 1
+                    <width> 3 </width>
+                    <height> 3 </height>
+                </wallLabel>
+                <wallLabel> 2
+                    <width> 3 </width>
+                    <height> 3 </height>
+                </wallLabel>
+                <wallLabel> 3
+                    <width> 3 </width>
+                    <height> 3 </height>
+                </wallLabel>
+                <wallLabel> 4
+                    <width> 3 </width>
+                    <height> 3 </height>
+                </wallLabel>
+                </wallNumbers>
+                <CORNER>
+                    <IDcorner> 1
+                        <cornerX> 0 </cornerX>
+                        <cornerY> 12 </cornerY>
+                        <wallLabels> 1,4 </wallLabels>
+                    </IDcorner>
+                    <IDCorner> 2
+                        <cornerX> 6 </cornerX>
+                        <cornerY> 12 </cornerY>
+                        <wallLabels> 1,2 </wallLabels>
+                    </IDCorner>
+                    <IDcorner> 3 
+                        <cornerX> 6 </cornerX>
+                        <cornerY> 18 </cornerY>
+                        <wallLabels> 2,3 </wallLabels>
+                    </IDcorner>
+                    <IDcorner> 4
+                        <cornerX> 0 </cornerX>
+                        <cornerY> 18 </cornerY>
+                        <wallLabels> 3,4 </wallLabels>
+                    </IDcorner>
+                </CORNER>
+                <DOORNUMBER> 0 </DOORNUMBER>
+                <WindowsNumber > 1 
+                    <Window> 12 
+                        <width> 2.5 </width>
+                        <height> 1.2 </height>
+                        <windowX> 12 </windowX>
+                        <windowY> 3.5 </windowY>
+                        <wallLabel> 3 </wallLabel>
+                    </Window>
+                </WindowsNumber>
+            </ROOM>
+        </ROOMNUMBER>
+     </LevelNumber>
+    </LEVEL>
+</BUILDING>
