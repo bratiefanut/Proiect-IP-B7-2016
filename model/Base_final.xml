@@ -4,10 +4,10 @@
     <WIDTH>  9.8 </WIDTH>
     <LENGHT> 9.6 </LENGHT>
     <LEVEL>
-        <LevelNumber>0
+        <LevelNumber> 1
         <HEIGHT>3</HEIGHT>
         <WIDTH>9.2</WIDTH>
-        <LENGHT>9.4</LENGHT>
+        <LENGTH>9.4</LENGTH>
         <ROOMNUMBER>5
             <ROOM>
                 <LABEL> 1 </LABEL>
@@ -104,7 +104,7 @@
             </ROOM>
 
              <ROOM>
-                <LABEL>2</LABEL>
+                <LABEL> 2 </LABEL>
                 <TYPE>NORMALROOM</TYPE>
                 <HEIGHT>3</HEIGHT>
                 <WIDTH>4</WIDTH>
@@ -473,13 +473,13 @@
         </ROOMNUMBER>
      </LevelNumber>
 
-     <LevelNumber>1
+     <LevelNumber>2
         <HEIGHT>3</HEIGHT>
         <WIDTH>9.2</WIDTH>
-        <LENGHT>9.4</LENGHT>
+        <LENGTH>9.4</LENGTH>
         <ROOMNUMBER>5
             <ROOM>
-                <LABEL> 1 </LABEL>
+                <LABEL> 6 </LABEL>
                 <TYPE> NORMALROOM </TYPE>
                 <HEIGHT> 3 </HEIGHT>
                 <WIDTH> 4 </WIDTH>
@@ -571,7 +571,7 @@
             </ROOM>
 
              <ROOM>
-                <LABEL> 2 </LABEL>
+                <LABEL> 7 </LABEL>
                 <TYPE>NORMALROOM</TYPE>
                 <HEIGHT>3</HEIGHT>
                 <WIDTH>4</WIDTH>
@@ -664,7 +664,7 @@
             </ROOM>
 
              <ROOM>
-                <LABEL> 3 </LABEL>
+                <LABEL> 8 </LABEL>
                 <TYPE> NORMALROOM </TYPE>
                 <HEIGHT> 3 </HEIGHT>
                 <WIDTH> 5 </WIDTH>
@@ -767,7 +767,7 @@
             </ROOM>
 
                <ROOM>
-                <LABEL> 4 </LABEL>
+                <LABEL> 9 </LABEL>
                 <TYPE> HALLWAY </TYPE>
                 <HEIGHT> 3 </HEIGHT>
                 <WIDTH> 6 </WIDTH>
@@ -870,7 +870,7 @@
             </ROOM>
 
             <ROOM>
-                <LABEL> 5 </LABEL>
+                <LABEL> 10 </LABEL>
                 <TYPE> STAIRSROOM </TYPE>
                 <HEIGHT> 3 </HEIGHT>
                 <WIDTH> 3 </WIDTH>
