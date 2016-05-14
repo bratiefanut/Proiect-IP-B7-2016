@@ -1,0 +1,5 @@
+In realizarea parsarii fisierului XML s-a folosit parserul JAXB care trebuie downloadat si configurat pentru a putea rula proiectul.
+
+Aveti aici link: https://jaxb.java.net/
+
+Daca lucrati pe Eclipse, luati pur si simplu fisierele .JAR cu Drag&Drop in lateral la proiect, apoi selectati fiecare .JAR pe rand si da-ti Build Path.
