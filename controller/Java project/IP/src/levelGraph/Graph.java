@@ -63,6 +63,10 @@ public class Graph{
                 {                                       // este external
                     exit = Integer.parseInt(door.getId());
                 }
+                if (level.getLevelNumber().equals("1") && roomie.getType().equals("STAIRSROOM"))
+                {
+                    exit = Integer.parseInt(door.getId());
+                }
             }
             for(int i = 0; i<d.length-1; i++){
                 for(int j = i + 1; j <d.length; j++){ // aici cream muchiile pentru graf ca fiind muchiile dintre usile care apartin aceleiasi camere

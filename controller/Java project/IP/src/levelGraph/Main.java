@@ -5,6 +5,9 @@ import buildingInfo.Door;
 import buildingInfo.Level;
 import buildingInfo.Room;
 import java.io.File;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
@@ -16,6 +19,7 @@ import javax.xml.bind.Unmarshaller;
 public class Main {
 
     private static Level level;
+    private static Level nivel;
     private static List<Vertex> vertexes1 = new ArrayList<Vertex>();
     private static List<Edge> edges1 = new ArrayList<Edge>();
     
@@ -52,32 +56,39 @@ public class Main {
         Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
         Building building = (Building) jaxbUnmarshaller.unmarshal(file); //se parseaza XML-ul
         Level[] L = building.getLevels(); 
-        level = L[0]; // cream un graf pentru nivelul 0 (adica parter)
-        
-        Graph g = new Graph(level);
-        vertexes1 = g.getVertexes();
-        edges1 = g.getEdges();
-        System.out.println("Varfurile grafului sunt: ");
-        for (int i = 0; i < vertexes1.size(); i++)
-        {
-            System.out.println(vertexes1.get(i) + " si are coordonatele " + vertexes1.get(i).getCoordX() + ' ' + vertexes1.get(i).getCoordY());
-        }
-        System.out.println();
-        System.out.println("Muchiile grafului sunt: ");
-        for (int i = 0; i < edges1.size(); i++)
-        {
-            System.out.println(edges1.get(i) + " cu costul " + edges1.get(i).getWeight());
-        }
-        System.out.println();
-        System.out.println("Calea catre iesire este: ");
-        for(int i = 0; i < vertexes1.size(); i++)
-        {
-            if (!vertexes1.get(i).getId().equals(Integer.toString(g.getExit())))
+//        level = L[1]; // cream un graf pentru nivelul 0 (adica parter)
+        for(Level level : L){
+            Graph g = new Graph(level);
+            vertexes1 = g.getVertexes();
+            edges1 = g.getEdges();
+            System.out.println();
+            System.out.println("Pentru nivelul " + level.getLevelNumber() + " s-au construit urmatoarele: ");
+            System.out.println();
+            System.out.println("Varfurile grafului sunt: ");
+            for (int i = 0; i < vertexes1.size(); i++)
             {
-                Execute(g,vertexes1.get(i).getId());
-                System.out.println();
+                System.out.println(vertexes1.get(i) + " si are coordonatele " + vertexes1.get(i).getCoordX() + ' ' + vertexes1.get(i).getCoordY());
+            }
+            System.out.println();
+            System.out.println("Muchiile grafului sunt: ");
+            for (int i = 0; i < edges1.size(); i++)
+            {
+                System.out.println(edges1.get(i) + " cu costul " + edges1.get(i).getWeight());
+            }
+            System.out.println();
+            System.out.println("Calea catre iesire este: ");
+            for(int i = 0; i < vertexes1.size(); i++)
+            {
+                if (!vertexes1.get(i).getId().equals(Integer.toString(g.getExit())))
+                {
+                    Execute(g,vertexes1.get(i).getId());
+                    System.out.println();
+                }
+            }
+            System.out.println( "Iesirea din graf este " + g.getExit());
+            System.out.println();
+            System.out.println();
+            System.out.println("--------------------------------------------");
             }
         }
-        System.out.println( "Iesirea din graf este " + g.getExit());
-    }
 }
