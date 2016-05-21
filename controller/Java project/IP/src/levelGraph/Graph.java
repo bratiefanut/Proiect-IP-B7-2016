@@ -63,7 +63,7 @@ public class Graph{
                 {                                       // este external
                     exit = Integer.parseInt(door.getId());
                 }
-                if (level.getLevelNumber().equals("1") && roomie.getType().equals("STAIRSROOM"))
+                if (Integer.parseInt(level.getLevelNumber()) >= 1 && roomie.getType().equals("STAIRSROOM"))
                 {
                     exit = Integer.parseInt(door.getId());
                 }
@@ -81,6 +81,7 @@ public class Graph{
                     edgeCount = edgeCount + 2;
                 }
             }
+            
         }
         
   }
