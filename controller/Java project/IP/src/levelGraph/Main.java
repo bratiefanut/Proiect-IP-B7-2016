@@ -6,14 +6,18 @@ import buildingInfo.Level;
 import buildingInfo.Room;
 import java.io.File;
 import java.io.BufferedWriter;
+import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Formatter;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
+import java.util.logging.Logger;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
@@ -54,8 +58,20 @@ public class Main {
 //        }
 //        System.out.print(pathWeight); // aici afisam costul pentru fiecare drum
     }
-     public static void main(String[] args) throws JAXBException
+     public static void main(String[] args) throws JAXBException, FileNotFoundException
     {
+        
+        final Formatter x;
+        
+        try {
+            x=new Formatter("path.txt");
+            System.out.println("file created ");
+        } catch (FileNotFoundException ex) {
+            Logger.getLogger(Main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        }
+           String filename="path.txt";
+         PrintWriter output=new PrintWriter(filename);
+        
         File file = new File("src\\parserXML\\Base.xml");
         JAXBContext jaxbContext = JAXBContext.newInstance(Building.class);
 
@@ -85,11 +101,12 @@ public class Main {
             {
                 hmap.clear();
                 Door[] d = room.getDoors();
-                System.out.print(level.getLevelNumber() + " " + room.getLabel() + " ");
+                output.print(level.getLevelNumber() + " " + room.getLabel() + " ");
 
                 for(int i = 0; i<d.length; i++){
                     if(d[i].getType().equals("EXTERNAL") || (room.getType().equals("STAIRSROOM") && Integer.parseInt(level.getLevelNumber()) >= 1)){
-                        System.out.print(d[i].getId() + " " + 0);
+//                        output.print(d[i].getId() + " " + 0);
+                        output.print(d[i].getId());
                         hmap.clear();
                         continue;
                     }
@@ -110,15 +127,21 @@ public class Main {
                     if(minim > entry.getKey())
                         minim = entry.getKey();
                 }
+                
+             
+                
                 for (Map.Entry<Float, LinkedList<Vertex>> entry : hmap.entrySet()) {
                     if(minim == entry.getKey()){
+                 
                         for(Vertex vertex : entry.getValue()){
-                            System.out.print(vertex + " ");
+                         
+                            output.print(vertex + " ");
                         }
-                        System.out.print(entry.getKey()+" ");
+                        
+//                        output.print(entry.getKey()+" ");
                     }
                 }
-                System.out.println();
+                output.println();
             }
 
             //System.out.println("Calea catre iesire este: ");
@@ -135,5 +158,8 @@ public class Main {
 //            System.out.println();
 //            System.out.println("--------------------------------------------");
             }
+         output.close();
         }
+     
+   
 }
