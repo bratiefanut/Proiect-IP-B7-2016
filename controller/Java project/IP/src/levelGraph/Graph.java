@@ -98,4 +98,8 @@ public class Graph{
   {
       return exit;
   }
+
+    Object GetEdges() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
